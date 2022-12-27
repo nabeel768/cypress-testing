@@ -1,0 +1,27 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-cypress": "npx cypress open",
+    "prettier": "prettier --write '**/*.{js,ts,json,md,html,ejs,css}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabeel768/cypress-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabeel768/cypress-testing/issues"
+  },
+  "homepage": "https://github.com/nabeel768/cypress-testing#readme",
+  "dependencies": {
+    "cypress": "^12.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
